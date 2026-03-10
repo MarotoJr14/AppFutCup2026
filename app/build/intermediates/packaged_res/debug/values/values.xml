@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="gold">#F9A825</color>
+    <color name="gold_light">#FFF8E1</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="green_light">#A5D6A7</color>
+    <color name="green_primary">#2E7D32</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <string name="app_name">FutCup 2026</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
+    <string name="navigation_drawer_open">Abrir menú</string>
+    <style name="Theme.FutCup" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryDark">@color/green_dark</item>
+        <item name="colorAccent">@color/green_primary</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>
