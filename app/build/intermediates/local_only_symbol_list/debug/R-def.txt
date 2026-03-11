@@ -2,10 +2,12 @@ R_DEF: Internal format may change without notice
 local
 color background
 color black
+color bronze_light
 color card_background
 color divider
 color gold_light
 color gold_primary
+color silver_light
 color text_primary
 color text_secondary
 color white
@@ -33,6 +35,7 @@ id toolbar
 id tv_campo
 id tv_cargando
 id tv_equipo
+id tv_estado
 id tv_fecha
 id tv_goles
 id tv_hora

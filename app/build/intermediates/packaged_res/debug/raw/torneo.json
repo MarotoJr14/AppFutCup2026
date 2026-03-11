@@ -34,7 +34,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "09:10",
       "campo": "Campo 1"
     },
@@ -46,7 +46,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "09:10",
       "campo": "Campo 2"
     },
@@ -58,7 +58,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "9:25",
       "campo": "Campo 1"
     },
@@ -70,7 +70,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "9:25",
       "campo": "Campo 2"
     },
@@ -82,7 +82,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "9:40",
       "campo": "Campo 1"
     },
@@ -94,7 +94,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "9:40",
       "campo": "Campo 2"
     },
@@ -106,7 +106,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "9:55",
       "campo": "Campo 1"
     },
@@ -118,7 +118,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "9:55",
       "campo": "Campo 2"
     },
@@ -130,7 +130,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "10:30",
       "campo": "Campo Único"
     },
@@ -142,7 +142,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "10:50",
       "campo": "Campo Único"
     },
@@ -154,7 +154,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "11:10",
       "campo": "Campo Único"
     },
@@ -166,7 +166,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "11:30",
       "campo": "Campo Único"
     },
@@ -178,7 +178,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "11:55",
       "campo": "Campo Único"
     },
@@ -190,7 +190,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "12:15",
       "campo": "Campo Único"
     },
@@ -202,7 +202,7 @@
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
-      "jugado": false,
+      "jugado": "Pendiente",
       "hora": "13:10",
       "campo": "Campo Único"
     }

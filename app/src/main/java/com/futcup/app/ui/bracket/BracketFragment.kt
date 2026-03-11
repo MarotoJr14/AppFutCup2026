@@ -69,7 +69,7 @@ class BracketFragment : Fragment() {
         tvLocal.text = partido.equipo_local
         tvVisitante.text = partido.equipo_visitante
 
-        if (partido.jugado && partido.goles_local != null && partido.goles_visitante != null) {
+        if (partido.jugado == "Finalizado" && partido.goles_local != null && partido.goles_visitante != null) {
             tvGolesLocal.text = partido.goles_local.toString()
             tvGolesVisitante.text = partido.goles_visitante.toString()
 

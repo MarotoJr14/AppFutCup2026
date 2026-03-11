@@ -41,10 +41,20 @@ class ScorersFragment : Fragment() {
             row.findViewById<TextView>(R.id.tv_goles).text =
                 "${goleador.goles} ⚽"
 
-            if (index == 0) {
-                row.setBackgroundColor(
-                    ContextCompat.getColor(requireContext(), R.color.gold_light)
-                )
+            if (index < 3) {
+                if(index == 0) {
+                    row.setBackgroundColor(
+                        ContextCompat.getColor(requireContext(), R.color.gold_light)
+                    )
+                } else if (index == 1) {
+                    row.setBackgroundColor(
+                        ContextCompat.getColor(requireContext(), R.color.silver_light)
+                    )
+                } else {
+                    row.setBackgroundColor(
+                        ContextCompat.getColor(requireContext(), R.color.bronze_light)
+                    )
+                }
                 row.findViewById<TextView>(R.id.tv_nombre).apply {
                     setTypeface(null, Typeface.BOLD)
                 }

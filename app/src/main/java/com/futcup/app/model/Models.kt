@@ -22,23 +22,23 @@ data class Partido(
     val goles_visitante: Int?,
     val penaltis_local: Int? = null,
     val penaltis_visitante: Int? = null,
-    val jugado: Boolean,
+    val jugado: String,
     val hora: String,
     val campo: String
 ) {
     fun getResultado(): String {
-        return if (jugado && goles_local != null && goles_visitante != null) {
+        return if (jugado != "Pendiente" && goles_local != null && goles_visitante != null) {
             val base = "$goles_local - $goles_visitante"
             if (penaltis_local != null && penaltis_visitante != null) {
                 "$base (P: $penaltis_local-$penaltis_visitante)"
             } else base
         } else {
-            "Pendiente"
+            "-"
         }
     }
 
     fun getGanador(): String? {
-        if (!jugado || goles_local == null || goles_visitante == null) return null
+        if (jugado != "Finalizado" || goles_local == null || goles_visitante == null) return null
         return when {
             goles_local > goles_visitante -> equipo_local
             goles_visitante > goles_local -> equipo_visitante

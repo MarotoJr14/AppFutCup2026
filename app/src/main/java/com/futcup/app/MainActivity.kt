@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         val (fragment, title) = when (item.itemId) {
             R.id.nav_home -> HomeFragment() to "FutCup 2026"
-            R.id.nav_calendar -> CalendarFragment() to "Calendario"
+            R.id.nav_calendar -> CalendarFragment() to "Calendario de Partidos"
             R.id.nav_scorers -> ScorersFragment() to "Máximos Goleadores"
             R.id.nav_bracket -> BracketFragment() to "Cuadro del Torneo"
             else -> return false

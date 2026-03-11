@@ -38,9 +38,9 @@ class CalendarFragment : Fragment() {
     private fun crearCabeceraRonda(ronda: String): TextView {
         return TextView(requireContext()).apply {
             text = ronda.uppercase()
-            textSize = 13f
+            textSize = 16f
             setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(ContextCompat.getColor(requireContext(), R.color.gold_primary))
+            setTextColor(ContextCompat.getColor(requireContext(), R.color.black))
             val dp16 = (16 * resources.displayMetrics.density).toInt()
             val dp8 = (8 * resources.displayMetrics.density).toInt()
             setPadding(dp16, dp16, dp16, dp8)
@@ -56,6 +56,8 @@ class CalendarFragment : Fragment() {
         val card = inflater.inflate(R.layout.item_partido, null)
 
         card.findViewById<TextView>(R.id.tv_hora).text = partido.hora
+        card.findViewById<TextView>(R.id.tv_estado).text = partido.jugado
+        card.findViewById<TextView>(R.id.tv_campo).text = partido.campo
         card.findViewById<TextView>(R.id.tv_local).text = partido.equipo_local
         card.findViewById<TextView>(R.id.tv_visitante).text = partido.equipo_visitante
         card.findViewById<TextView>(R.id.tv_resultado).text = partido.getResultado()
