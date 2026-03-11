@@ -32,10 +32,6 @@
         "source": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-main-6:\\drawable\\card_background.xml"
     },
     {
-        "merged": "com.futcup.app-merged_res-4:/layout_activity_main.xml.flat",
-        "source": "com.futcup.app-main-6:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-merged_res-4:\\drawable_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-main-6:\\drawable\\ic_launcher_round.xml"
     },
@@ -60,7 +56,7 @@
         "source": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-main-6:\\layout\\nav_header.xml"
     },
     {
-        "merged": "com.futcup.app-merged_res-4:/layout_fragment_home.xml.flat",
-        "source": "com.futcup.app-main-6:/layout/fragment_home.xml"
+        "merged": "com.futcup.app-merged_res-4:/raw_torneo.json.flat",
+        "source": "com.futcup.app-main-6:/raw/torneo.json"
     }
 ]
