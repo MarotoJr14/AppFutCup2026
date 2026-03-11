@@ -59,8 +59,8 @@ object DataReader {
                 equipo_visitante = p.getString("equipo_visitante"),
                 goles_local = if (p.isNull("goles_local")) null else p.getInt("goles_local"),
                 goles_visitante = if (p.isNull("goles_visitante")) null else p.getInt("goles_visitante"),
-                penaltis_local = if (p.has("penaltis_local") && !p.isNull("penaltis_local")) p.getInt("penaltis_local") else null,
-                penaltis_visitante = if (p.has("penaltis_visitante") && !p.isNull("penaltis_visitante")) p.getInt("penaltis_visitante") else null,
+                penaltis_local = if (p.isNull("penaltis_local") null else p.getInt("penaltis_local"),
+                penaltis_visitante = if (p.isNull("penaltis_visitante") null else p.getInt("penaltis_visitante"),
                 jugado = p.getString("jugado"),
                 hora = p.getString("hora"),
                 campo = p.getString("campo")
