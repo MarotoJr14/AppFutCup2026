@@ -30,7 +30,7 @@ data class Partido(
         return if (jugado != "Pendiente" && goles_local != null && goles_visitante != null) {
             val base = "$goles_local - $goles_visitante"
             if (penaltis_local != null && penaltis_visitante != null) {
-                "$base (P: $penaltis_local-$penaltis_visitante)"
+                "$base (Pen: $penaltis_local-$penaltis_visitante)"
             } else base
         } else {
             "-"
