@@ -75,9 +75,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="EQUIPOS PARTICIPANTES"
-                android:textSize="12sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
-                android:textColor="@color/gold_primary"
+                android:textColor="@color/text_primary"
                 android:letterSpacing="0.1"
                 android:layout_marginBottom="8dp"/>
 

@@ -2,8 +2,8 @@
   "torneo": {
     "nombre": "FutCup 2026",
     "campo": "Polideportivo Municipal Entremontes",
-    "fecha_inicio": "13/03/2026 9:00",
-    "fecha_fin": "13/03/2026 14:00"
+    "fecha_inicio": "13/03/2026",
+    "fecha_fin": "13/03/2026"
   },
   "equipos": [
     { "id": 1, "nombre": "2º ASIR" },

@@ -32,9 +32,11 @@ class HomeFragment : Fragment() {
         val container = view.findViewById<LinearLayout>(R.id.ll_equipos)
         data.equipos.forEach { equipo ->
             val tv = TextView(requireContext()).apply {
+                text = equipo.nombre
                 textSize = 16f
                 setPadding(0, 16, 0, 16)
-                setTextColor(resources.getColor(R.color.text_primary, null))
+                setTextColor(resources.getColor(R.color.text_secondary, null))
+                setTypeface(null, android.graphics.Typeface.BOLD)
             }
             val divider = View(requireContext()).apply {
                 layoutParams = LinearLayout.LayoutParams(

@@ -12,6 +12,10 @@
         "source": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-main-6:\\layout\\fragment_scorers.xml"
     },
     {
+        "merged": "com.futcup.app-merged_res-4:/layout_item_partido.xml.flat",
+        "source": "com.futcup.app-main-6:/layout/item_partido.xml"
+    },
+    {
         "merged": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-merged_res-4:\\layout_item_partido.xml.flat",
         "source": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-main-6:\\layout\\item_partido.xml"
     },
@@ -36,12 +40,12 @@
         "source": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-main-6:\\drawable\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-merged_res-4:\\layout_item_goleador.xml.flat",
-        "source": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-main-6:\\layout\\item_goleador.xml"
-    },
-    {
         "merged": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-merged_res-4:\\menu_toolbar_menu.xml.flat",
         "source": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-main-6:\\menu\\toolbar_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-merged_res-4:\\layout_item_goleador.xml.flat",
+        "source": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-main-6:\\layout\\item_goleador.xml"
     },
     {
         "merged": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-merged_res-4:\\layout_fragment_calendar.xml.flat",
@@ -54,9 +58,5 @@
     {
         "merged": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-merged_res-4:\\layout_nav_header.xml.flat",
         "source": "C:\\Users\\gbrav\\.gradle\\daemon\\9.0-milestone-1\\com.futcup.app-main-6:\\layout\\nav_header.xml"
-    },
-    {
-        "merged": "com.futcup.app-merged_res-4:/raw_torneo.json.flat",
-        "source": "com.futcup.app-main-6:/raw/torneo.json"
     }
 ]
