@@ -24,7 +24,7 @@ class ScorersFragment : Fragment() {
         val data = (requireActivity() as MainActivity).torneoData ?: return
         val container = view.findViewById<LinearLayout>(R.id.ll_goleadores)
 
-        data.goleadores.forEachIndexed { index, goleador ->
+        data.goleadores.filter { it.goles > 0 }.forEachIndexed { index, goleador ->
             val inflater = LayoutInflater.from(requireContext())
             val row = inflater.inflate(R.layout.item_goleador, null)
 
