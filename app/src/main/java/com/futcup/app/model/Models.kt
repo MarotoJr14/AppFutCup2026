@@ -10,6 +10,7 @@ data class Torneo(
 data class Equipo(
     val id: Int,
     val nombre: String,
+    val ganados: Int = 0
 )
 
 data class Partido(

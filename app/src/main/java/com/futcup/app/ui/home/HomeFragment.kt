@@ -30,12 +30,26 @@ class HomeFragment : Fragment() {
                 "📅 ${data.torneo.fecha_inicio} — ${data.torneo.fecha_fin}"
 
         val container = view.findViewById<LinearLayout>(R.id.ll_equipos)
-        data.equipos.forEach { equipo ->
+        val equiposOrdenados = data.equipos.sortedWith(
+            compareByDescending<com.futcup.app.model.Equipo> { it.ganados }
+                .thenBy { it.nombre }
+        )
+        equiposOrdenados.forEach { equipo ->
+            val clasificacion = when (equipo.ganados) {
+                0 -> "No clasificado"
+                1 -> "Octavos"
+                2 -> "Cuartos"
+                3 -> "Semifinalista"
+                4 -> "Finalista"
+                5 -> "Campeón"
+                else -> ""
+            }
+
             val tv = TextView(requireContext()).apply {
-                text = equipo.nombre
+                text = "${equipo.nombre} ($clasificacion)"
                 textSize = 16f
                 setPadding(0, 16, 0, 16)
-                setTextColor(resources.getColor(R.color.text_secondary, null))
+                setTextColor(resources.getColor(R.color.text_primary, null))
                 setTypeface(null, android.graphics.Typeface.BOLD)
             }
             val divider = View(requireContext()).apply {

@@ -16,7 +16,7 @@
     { "id": 8, "nombre": "1º COI", "ganados": 0 },
     { "id": 9, "nombre": "2º SMR B", "ganados": 0 },
     { "id": 10, "nombre": "1º ACO A", "ganados": 0 },
-    { "id": 11, "nombre": "PROFES", "ganados": 0 },
+    { "id": 11, "nombre": "PROFES", "ganados": 2 },
     { "id": 12, "nombre": "1º GAD", "ganados": 0 },
     { "id": 13, "nombre": "2º ACO B", "ganados": 0 },
     { "id": 14, "nombre": "1º AFI", "ganados": 0 },

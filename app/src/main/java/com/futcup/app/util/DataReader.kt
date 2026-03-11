@@ -43,7 +43,8 @@ object DataReader {
             val e = equiposJson.getJSONObject(it)
             Equipo(
                 id = e.getInt("id"),
-                nombre = e.getString("nombre")
+                nombre = e.getString("nombre"),
+                ganados = e.getInt("ganados")
             )
         }
 
