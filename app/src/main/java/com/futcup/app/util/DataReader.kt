@@ -76,7 +76,7 @@ object DataReader {
                 equipo = g.getString("equipo"),
                 goles = if (g.isNull("goles")) 0 else g.getInt("goles")
             )
-        }.sortedByDescending { it.goles }
+        }
 
         return TorneoData(torneo, equipos, partidos, goleadores)
     }
