@@ -12,6 +12,8 @@ color text_primary
 color text_secondary
 color white
 drawable card_background
+drawable futcup2026_logo
+drawable futcup2026_mascota
 drawable ic_launcher_round
 id action_refresh
 id btn_reintentar
