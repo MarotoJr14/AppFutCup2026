@@ -1,10 +1,10 @@
-com.futcup.app-pngs-0 C:\.MAROTO\Apps\FutCup2026\app\build\generated\res\pngs\debug
-com.futcup.app-resValues-1 C:\.MAROTO\Apps\FutCup2026\app\build\generated\res\resValues\debug
-com.futcup.app-packageDebugResources-2 C:\.MAROTO\Apps\FutCup2026\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.futcup.app-packageDebugResources-3 C:\.MAROTO\Apps\FutCup2026\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.futcup.app-merged_res-4 C:\.MAROTO\Apps\FutCup2026\app\build\intermediates\merged_res\debug
-com.futcup.app-debug-5 C:\.MAROTO\Apps\FutCup2026\app\src\debug\res
-com.futcup.app-main-6 C:\.MAROTO\Apps\FutCup2026\app\src\main\res
+com.futcup.app-pngs-0 C:\.MAROTO\Apps\AppFutCup2026\app\build\generated\res\pngs\debug
+com.futcup.app-resValues-1 C:\.MAROTO\Apps\AppFutCup2026\app\build\generated\res\resValues\debug
+com.futcup.app-packageDebugResources-2 C:\.MAROTO\Apps\AppFutCup2026\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.futcup.app-packageDebugResources-3 C:\.MAROTO\Apps\AppFutCup2026\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.futcup.app-merged_res-4 C:\.MAROTO\Apps\AppFutCup2026\app\build\intermediates\merged_res\debug
+com.futcup.app-debug-5 C:\.MAROTO\Apps\AppFutCup2026\app\src\debug\res
+com.futcup.app-main-6 C:\.MAROTO\Apps\AppFutCup2026\app\src\main\res
 com.futcup.app-recyclerview-1.1.0-7 C:\Users\gbrav\.gradle\caches\9.0-milestone-1\transforms\0e3919e37eafba6e6c881dd904e3595f\transformed\recyclerview-1.1.0\res
 com.futcup.app-emoji2-views-helper-1.2.0-8 C:\Users\gbrav\.gradle\caches\9.0-milestone-1\transforms\18bf145bea565acba02cefa1332c8257\transformed\emoji2-views-helper-1.2.0\res
 com.futcup.app-lifecycle-process-2.6.1-9 C:\Users\gbrav\.gradle\caches\9.0-milestone-1\transforms\1ad6f39fe9febdc7b1cb00c8b00c8888\transformed\lifecycle-process-2.6.1\res

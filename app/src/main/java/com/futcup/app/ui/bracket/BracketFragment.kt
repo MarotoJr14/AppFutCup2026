@@ -24,12 +24,12 @@ class BracketFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val data = (requireActivity() as MainActivity).torneoData ?: return
 
-        val rondas = listOf("Octavos de Final", "Cuartos de Final", "Semifinal", "Final")
+        val rondas = listOf("1/8 de Final", "1/4 de Final", "Semifinal", "Final")
 
         rondas.forEach { nombreRonda ->
             val containerRes = when (nombreRonda) {
-                "Octavos de Final" -> R.id.ll_octavos
-                "Cuartos de Final" -> R.id.ll_cuartos
+                "1/8 de Final" -> R.id.ll_octavos
+                "1/4 de Final" -> R.id.ll_cuartos
                 "Semifinal" -> R.id.ll_semis
                 "Final" -> R.id.ll_final
                 else -> return@forEach
@@ -75,14 +75,14 @@ class BracketFragment : Fragment() {
 
             if (ganador == partido.equipo_local) {
                 tvLocal.setTypeface(null, Typeface.BOLD)
-                tvLocal.setTextColor(ContextCompat.getColor(requireContext(), R.color.green_primary))
+                tvLocal.setTextColor(ContextCompat.getColor(requireContext(), R.color.gold_primary))
                 tvGolesLocal.setTypeface(null, Typeface.BOLD)
-                tvGolesLocal.setTextColor(ContextCompat.getColor(requireContext(), R.color.green_primary))
+                tvGolesLocal.setTextColor(ContextCompat.getColor(requireContext(), R.color.gold_primary))
             } else if (ganador == partido.equipo_visitante) {
                 tvVisitante.setTypeface(null, Typeface.BOLD)
-                tvVisitante.setTextColor(ContextCompat.getColor(requireContext(), R.color.green_primary))
+                tvVisitante.setTextColor(ContextCompat.getColor(requireContext(), R.color.gold_primary))
                 tvGolesVisitante.setTypeface(null, Typeface.BOLD)
-                tvGolesVisitante.setTextColor(ContextCompat.getColor(requireContext(), R.color.green_primary))
+                tvGolesVisitante.setTextColor(ContextCompat.getColor(requireContext(), R.color.gold_primary))
             }
         } else {
             tvGolesLocal.text = "-"

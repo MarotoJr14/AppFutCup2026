@@ -40,7 +40,7 @@ class CalendarFragment : Fragment() {
             text = ronda.uppercase()
             textSize = 13f
             setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(ContextCompat.getColor(requireContext(), R.color.green_primary))
+            setTextColor(ContextCompat.getColor(requireContext(), R.color.gold_primary))
             val dp16 = (16 * resources.displayMetrics.density).toInt()
             val dp8 = (8 * resources.displayMetrics.density).toInt()
             setPadding(dp16, dp16, dp16, dp8)

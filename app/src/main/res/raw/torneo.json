@@ -35,7 +35,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "09:10"
+      "hora": "09:10",
+      "campo": "Campo 1"
     },
     {
       "id": 2,
@@ -46,7 +47,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "09:10"
+      "hora": "09:10",
+      "campo": "Campo 2"
     },
     {
       "id": 3,
@@ -57,7 +59,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "9:25"
+      "hora": "9:25",
+      "campo": "Campo 1"
     },
     {
       "id": 4,
@@ -68,7 +71,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "9:25"
+      "hora": "9:25",
+      "campo": "Campo 2"
     },
     {
       "id": 5,
@@ -79,7 +83,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "9:40"
+      "hora": "9:40",
+      "campo": "Campo 1"
     },
     {
       "id": 6,
@@ -90,7 +95,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "9:40"
+      "hora": "9:40",
+      "campo": "Campo 2"
     },
     {
       "id": 7,
@@ -101,7 +107,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "9:55"
+      "hora": "9:55",
+      "campo": "Campo 1"
     },
     {
       "id": 8,
@@ -112,7 +119,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "9:55"
+      "hora": "9:55",
+      "campo": "Campo 2"
     },
     {
       "id": 9,
@@ -123,7 +131,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "10:30"
+      "hora": "10:30",
+      "campo": "Campo Único"
     },
     {
       "id": 10,
@@ -134,7 +143,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "10:50"
+      "hora": "10:50",
+      "campo": "Campo Único"
     },
     {
       "id": 11,
@@ -145,7 +155,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "11:10"
+      "hora": "11:10",
+      "campo": "Campo Único"
     },
     {
       "id": 12,
@@ -156,7 +167,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "11:30"
+      "hora": "11:30",
+      "campo": "Campo Único"
     },
     {
       "id": 13,
@@ -167,7 +179,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "11:55"
+      "hora": "11:55",
+      "campo": "Campo Único"
     },
     {
       "id": 14,
@@ -178,7 +191,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "12:15"
+      "hora": "12:15",
+      "campo": "Campo Único"
     },
     {
       "id": 15,
@@ -189,7 +203,8 @@
       "goles_local": null,
       "goles_visitante": null,
       "jugado": false,
-      "hora": "13:10"
+      "hora": "13:10",
+      "campo": "Campo Único"
     }
   ],
   "goleadores": [

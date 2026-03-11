@@ -17,7 +17,7 @@
             android:text="TABLA DE GOLEADORES"
             android:textSize="12sp"
             android:textStyle="bold"
-            android:textColor="@color/green_primary"
+            android:textColor="@color/text_primary"
             android:letterSpacing="0.1"
             android:layout_marginBottom="16dp"/>
 

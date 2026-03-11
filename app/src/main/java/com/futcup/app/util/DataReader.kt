@@ -9,7 +9,7 @@ import java.net.URL
 object DataReader {
 
     // ⚙️ CAMBIA ESTA URL por la de tu archivo JSON en GitHub (URL "raw")
-    const val JSON_URL = "https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/torneo.json"
+    const val JSON_URL = "https://raw.githubusercontent.com/MarotoJr14/AppFutCup2026/refs/heads/main/app/src/main/res/raw/torneo.json"
 
     fun cargarDatos(context: Context): TorneoData {
         val json = try {
@@ -62,7 +62,8 @@ object DataReader {
                 penaltis_local = if (p.has("penaltis_local") && !p.isNull("penaltis_local")) p.getInt("penaltis_local") else null,
                 penaltis_visitante = if (p.has("penaltis_visitante") && !p.isNull("penaltis_visitante")) p.getInt("penaltis_visitante") else null,
                 jugado = p.getBoolean("jugado"),
-                hora = p.getString("hora")
+                hora = p.getString("hora"),
+                campo = p.getString("campo")
             )
         }
 
@@ -73,7 +74,7 @@ object DataReader {
             Goleador(
                 nombre = g.getString("nombre"),
                 equipo = g.getString("equipo"),
-                goles = g.getInt("goles")
+                goles = if (g.isNull("goles")) 0 else g.getInt("goles")
             )
         }.sortedByDescending { it.goles }
 

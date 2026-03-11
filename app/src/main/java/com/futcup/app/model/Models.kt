@@ -23,7 +23,8 @@ data class Partido(
     val penaltis_local: Int? = null,
     val penaltis_visitante: Int? = null,
     val jugado: Boolean,
-    val hora: String
+    val hora: String,
+    val campo: String
 ) {
     fun getResultado(): String {
         return if (jugado && goles_local != null && goles_visitante != null) {
