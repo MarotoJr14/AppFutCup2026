@@ -36,7 +36,7 @@
       "goles_visitante": null,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Finalizado",
+      "jugado": "Pendiente",
       "hora": "09:10",
       "campo": "Campo 1"
     },
@@ -50,7 +50,7 @@
       "goles_visitante": null,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Finalizado",
+      "jugado": "Pendiente",
       "hora": "09:10",
       "campo": "Campo 2"
     },
@@ -64,7 +64,7 @@
       "goles_visitante": null,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "En juego",
+      "jugado": "Pendiente",
       "hora": "9:25",
       "campo": "Campo 1"
     },
@@ -78,7 +78,7 @@
       "goles_visitante": null,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "En juego",
+      "jugado": "Pendiente",
       "hora": "9:25",
       "campo": "Campo 2"
     },
