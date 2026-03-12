@@ -36,17 +36,17 @@ class HomeFragment : Fragment() {
         )
         equiposOrdenados.forEach { equipo ->
             val clasificacion = when (equipo.ganados) {
-                0 -> "No clasificado"
-                1 -> "Octavos"
-                2 -> "Cuartos"
-                3 -> "Semifinalista"
-                4 -> "Finalista"
-                5 -> "Campeón"
+                0 -> "Fase de Grupos"
+                1 -> "1/8 de Final"
+                2 -> "1/4 de Final"
+                3 -> "Semifinalista 🥉"
+                4 -> "Finalista 🥈"
+                5 -> "Campeón 🏆"
                 else -> ""
             }
 
             val tv = TextView(requireContext()).apply {
-                text = "${equipo.nombre} ($clasificacion)"
+                text = "${equipo.nombre} - $clasificacion"
                 textSize = 16f
                 setPadding(0, 16, 0, 16)
                 setTextColor(resources.getColor(R.color.text_primary, null))
@@ -56,7 +56,7 @@ class HomeFragment : Fragment() {
                 layoutParams = LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.MATCH_PARENT, 1
                 )
-                setBackgroundColor(resources.getColor(R.color.divider, null))
+                setBackgroundColor(resources.getColor(R.color.white, null))
             }
             container.addView(tv)
             container.addView(divider)

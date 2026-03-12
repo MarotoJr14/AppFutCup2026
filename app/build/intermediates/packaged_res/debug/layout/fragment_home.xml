@@ -11,7 +11,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Banner del torneo -->
+        <!-- Info del torneo -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,11 +21,12 @@
             android:gravity="center"
             android:layout_marginBottom="16dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="⚽"
-                android:textSize="48sp"/>
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/futcup2026_logo"
+                android:contentDescription="FutCup 2026 Logo"
+                android:layout_marginBottom="12dp"/>
 
             <TextView
                 android:id="@+id/tv_torneo_nombre"
@@ -74,7 +75,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="EQUIPOS PARTICIPANTES"
+                android:text="@string/title_teams"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="@color/text_primary"

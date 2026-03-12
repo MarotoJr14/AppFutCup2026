@@ -26,7 +26,9 @@ class ScorersFragment : Fragment() {
 
         val goleadoresOrdenados = data.goleadores
             .filter { it.goles > 0 }
-            .sortedWith(compareBy({ it.equipo }, { it.nombre }))
+            .sortedWith(compareByDescending<com.futcup.app.model.Goleador> { it.goles }
+                .thenBy { it.equipo }
+                .thenBy { it.nombre })
 
         goleadoresOrdenados.forEachIndexed { index, goleador ->
             val inflater = LayoutInflater.from(requireContext())

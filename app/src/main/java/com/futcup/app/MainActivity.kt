@@ -60,6 +60,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 null
             }
 
+            // Delay de 2 segundos para simular carga
+            Thread.sleep(2500)
+
             runOnUiThread {
                 mostrarCargando(false)
                 if (datos != null) {

@@ -35,20 +35,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/futcup2026_mascota"
-                android:contentDescription="Mascota de la Futcup 2026"/>
+                android:contentDescription="Futcup 2026 Mascota"/>
 
             <ProgressBar
                 android:id="@+id/progress_bar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:indeterminateTint="@color/text_secondary"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="15dp"/>
 
             <TextView
                 android:id="@+id/tv_cargando"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cargando datos del torneo..."
+                android:text="@string/loading_info"
                 android:textSize="15sp"
                 android:textColor="@color/text_secondary"
                 android:gravity="center"/>
@@ -57,7 +58,7 @@
                 android:id="@+id/btn_reintentar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reintentar"
+                android:text="@string/retry_button"
                 android:textColor="@color/white"
                 android:backgroundTint="@color/black"
                 android:visibility="gone"
@@ -68,8 +69,17 @@
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/background" />
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/gold_primary" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/futcup2026_banner"
+            android:contentDescription="FutCup 2026 Banner"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
 
     </LinearLayout>
 

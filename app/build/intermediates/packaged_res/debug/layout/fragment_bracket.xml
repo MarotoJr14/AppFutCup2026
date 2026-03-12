@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1/8 DE FINAL"
+            android:text="@string/round_octavos"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="@color/text_primary"
@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1/4 DE FINAL"
+            android:text="@string/round_cuartos"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="@color/text_primary"
@@ -51,11 +51,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SEMIFINAL"
+            android:text="@string/round_semifinal"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="@color/text_primary"
-            android:letterSpacing="0.1"
+
             android:layout_marginBottom="8dp"/>
 
         <LinearLayout
@@ -69,7 +69,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="🏆 FINAL"
+            android:text="@string/round_final"
             android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="@color/text_primary"

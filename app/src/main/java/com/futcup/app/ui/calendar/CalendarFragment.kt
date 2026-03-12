@@ -22,34 +22,38 @@ class CalendarFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val data = (requireActivity() as MainActivity).torneoData ?: return
-        val container = view.findViewById<LinearLayout>(R.id.ll_partidos)
 
-        val porRonda = data.partidos.groupBy { it.ronda }
-            .entries.sortedBy { it.value.first().orden_ronda }
+        val rondas = listOf("1/8 de Final", "1/4 de Final", "Semifinal", "Final")
 
-        porRonda.forEach { (ronda, partidos) ->
-            container.addView(crearCabeceraRonda(ronda))
-            partidos.forEach { partido ->
-                container.addView(crearCardPartido(partido))
+        rondas.forEach { nombreRonda ->
+            val containerRes = when (nombreRonda) {
+                "1/8 de Final" -> R.id.ll_octavos
+                "1/4 de Final" -> R.id.ll_cuartos
+                "Semifinal" -> R.id.ll_semis
+                "Final" -> R.id.ll_final
+                else -> return@forEach
+            }
+
+            val container = view.findViewById<LinearLayout>(containerRes)
+            val partidos = data.partidos.filter { it.ronda == nombreRonda }
+
+            if (partidos.isEmpty()) {
+                val tv = TextView(requireContext()).apply {
+                    text = "Sin partidos asignados"
+                    textSize = 12f
+                    setTextColor(ContextCompat.getColor(requireContext(), R.color.text_secondary))
+                    val dp8 = (8 * resources.displayMetrics.density).toInt()
+                    setPadding(0, dp8, 0, dp8)
+                }
+                container.addView(tv)
+            } else {
+                partidos.forEach { partido ->
+                    container.addView(crearCardPartido(partido))
+                }
             }
         }
     }
 
-    private fun crearCabeceraRonda(ronda: String): TextView {
-        return TextView(requireContext()).apply {
-            text = ronda.uppercase()
-            textSize = 16f
-            setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(ContextCompat.getColor(requireContext(), R.color.black))
-            val dp16 = (16 * resources.displayMetrics.density).toInt()
-            val dp8 = (8 * resources.displayMetrics.density).toInt()
-            setPadding(dp16, dp16, dp16, dp8)
-            layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.WRAP_CONTENT
-            ).apply { topMargin = dp8 }
-        }
-    }
 
     private fun crearCardPartido(partido: Partido): View {
         val inflater = LayoutInflater.from(requireContext())
