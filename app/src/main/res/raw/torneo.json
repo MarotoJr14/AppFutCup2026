@@ -259,18 +259,6 @@
     { "nombre": "Rumen Nikdaev", "equipo": "2º COI", "goles": 2 },
     { "nombre": "David Pereira", "equipo": "2º COI", "goles": 3 },
 
-    { "nombre": "Diego Retes", "equipo": "2º AFI", "goles": 1 },
-    { "nombre": "Fran Chávez", "equipo": "2º AFI", "goles": null },
-    { "nombre": "Leo Dubois", "equipo": "2º AFI", "goles": null },
-    { "nombre": "Manu Bonifacio", "equipo": "2º AFI", "goles": 1 },
-    { "nombre": "Víctor Criado", "equipo": "2º AFI", "goles": null },
-    { "nombre": "Enra Alonso", "equipo": "2º AFI", "goles": null },
-    { "nombre": "Cosmín Agapie", "equipo": "2º AFI", "goles": 3 },
-    { "nombre": "Sergio Francés", "equipo": "2º AFI", "goles": null },
-    { "nombre": "Alejandro Martín", "equipo": "2º AFI", "goles": null },
-    { "nombre": "Nicolás Riesgo", "equipo": "2º AFI", "goles": null },
-
-
     { "nombre": "Alejandro Toja", "equipo": "1º COI", "goles": 2 },
     { "nombre": "Marco Marnet", "equipo": "1º COI", "goles": null },
     { "nombre": "Adrián Castro", "equipo": "1º COI", "goles": null },
@@ -280,9 +268,16 @@
     { "nombre": "Alejandro Andrés", "equipo": "1º COI", "goles": null },
     { "nombre": "Nikolay Biserov", "equipo": "1º COI", "goles": 2 },
     { "nombre": "Jorge Sanz", "equipo": "1º COI", "goles": null },
-
-
-
+    { "nombre": "Diego Retes", "equipo": "2º AFI", "goles": 3 },
+    { "nombre": "Fran Chávez", "equipo": "2º AFI", "goles": null },
+    { "nombre": "Leo Dubois", "equipo": "2º AFI", "goles": null },
+    { "nombre": "Manu Bonifacio", "equipo": "2º AFI", "goles": 1 },
+    { "nombre": "Víctor Criado", "equipo": "2º AFI", "goles": null },
+    { "nombre": "Enra Alonso", "equipo": "2º AFI", "goles": null },
+    { "nombre": "Cosmín Agapie", "equipo": "2º AFI", "goles": 3 },
+    { "nombre": "Sergio Francés", "equipo": "2º AFI", "goles": null },
+    { "nombre": "Alejandro Martín", "equipo": "2º AFI", "goles": null },
+    { "nombre": "Nicolás Riesgo", "equipo": "2º AFI", "goles": null },
     { "nombre": "Alejandro Cros", "equipo": "2º SMR A", "goles": 2 },
     { "nombre": "Jaime Fernández", "equipo": "2º SMR A", "goles": null },
     { "nombre": "Clemente González", "equipo": "2º SMR A", "goles": null },
