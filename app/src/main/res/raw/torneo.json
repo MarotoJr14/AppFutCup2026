@@ -36,7 +36,7 @@
       "goles_visitante": 1,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Pendiente",
+      "jugado": "En Juego",
       "hora": "09:33",
       "campo": "Campo 1"
     },
@@ -50,7 +50,7 @@
       "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Pendiente",
+      "jugado": "En Juego",
       "hora": "09:33",
       "campo": "Campo 2"
     },
