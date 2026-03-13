@@ -7,15 +7,15 @@
   },
   "equipos": [
     { "id": 8, "nombre": "1º COI", "ganados": 3 },
+    { "id": 12, "nombre": "1º GAD", "ganados": 3 },
 
-    { "id": 2, "nombre": "1º MKT", "ganados": 2 },
-    { "id": 12, "nombre": "1º GAD", "ganados": 2 },
     { "id": 4, "nombre": "2º COI", "ganados": 2 },
     { "id": 10, "nombre": "1º ACO", "ganados": 2 },
     { "id": 16, "nombre": "2º AFI", "ganados": 2 },
     { "id": 7, "nombre": "2º ACO A", "ganados": 2 },
 
     { "id": 15, "nombre": "2º MKT", "ganados": 2 },
+    { "id": 2, "nombre": "1º MKT", "ganados": 2 },
 
     { "id": 6, "nombre": "2º SMR B", "ganados": 1 },
     { "id": 13, "nombre": "2º ACO B", "ganados": 1 },
@@ -166,7 +166,7 @@
       "goles_visitante": 1,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "En Juego",
+      "jugado": "Finalizado",
       "hora": "12:03",
       "campo": "Campo Único"
     },
@@ -176,12 +176,12 @@
       "orden_ronda": 2,
       "equipo_local": "2º COI",
       "equipo_visitante": "1º ACO",
-      "goles_local": null,
-      "goles_visitante": null,
+      "goles_local": 1,
+      "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Pendiente",
-      "hora": "11:10",
+      "jugado": "En Juego",
+      "hora": "12:33",
       "campo": "Campo Único"
     },
     {
@@ -252,6 +252,17 @@
     { "nombre": "Nikolay Biserov", "equipo": "1º COI", "goles": null },
     { "nombre": "Jorge Sanz", "equipo": "1º COI", "goles": null },
 
+    { "nombre": "Sergio Fernández", "equipo": "1º GAD", "goles": null },
+    { "nombre": "Alonso González", "equipo": "1º GAD", "goles": null },
+    { "nombre": "Jaime Trenado", "equipo": "1º GAD", "goles": null },
+    { "nombre": "Jaime Muguruza", "equipo": "1º GAD", "goles": 1 },
+    { "nombre": "Roman Zarovnyi", "equipo": "1º GAD", "goles": 1 },
+    { "nombre": "Álvaro Burgo", "equipo": "1º GAD", "goles": 1 },
+    { "nombre": "Javier Venfenas", "equipo": "1º GAD", "goles": null },
+    { "nombre": "Alfonso Iza", "equipo": "1º GAD", "goles": 2 },
+    { "nombre": "Gabriel Morales", "equipo": "1º GAD", "goles": null },
+    { "nombre": "Ignacio Asuan", "equipo": "1º GAD", "goles": 1 },
+
 
 
     { "nombre": "Adrián Díaz", "equipo": "2º COI", "goles": null },
@@ -297,6 +308,17 @@
     { "nombre": "Sergio Badorrey", "equipo": "2º ACO A", "goles": null },
     { "nombre": "Hugo Yáñez", "equipo": "2º ACO A", "goles": null },
 
+
+
+    { "nombre": "Alejandro Cros", "equipo": "2º SMR A", "goles": 2 },
+    { "nombre": "Jaime Fernández", "equipo": "2º SMR A", "goles": null },
+    { "nombre": "Clemente González", "equipo": "2º SMR A", "goles": null },
+    { "nombre": "Alessandro Barrabes", "equipo": "2º SMR A", "goles": null },
+    { "nombre": "Álvaro González", "equipo": "2º SMR A", "goles": 2 },
+    { "nombre": "Alejandro Navarro", "equipo": "2º SMR A", "goles": null },
+    { "nombre": "Héctor Gálvez", "equipo": "2º SMR A", "goles": null },
+    { "nombre": "Mario Fernández-Braso", "equipo": "2º SMR A", "goles": null },
+    { "nombre": "Mario García Rey", "equipo": "2º SMR A", "goles": null },
     { "nombre": "Victor Gil", "equipo": "1º MKT", "goles": 1 },
     { "nombre": "Nacho Sánchez", "equipo": "1º MKT", "goles": 2 },
     { "nombre": "Miguel Cudeiro", "equipo": "1º MKT", "goles": null },
@@ -309,29 +331,6 @@
     { "nombre": "Álvaro Conde", "equipo": "1º MKT", "goles": null },
     { "nombre": "Jorge Pintus", "equipo": "1º MKT", "goles": 1 },
     { "nombre": "Javier Paraíso", "equipo": "1º MKT", "goles": 1 },
-
-    { "nombre": "Sergio Fernández", "equipo": "1º GAD", "goles": null },
-    { "nombre": "Alonso González", "equipo": "1º GAD", "goles": null },
-    { "nombre": "Jaime Trenado", "equipo": "1º GAD", "goles": null },
-    { "nombre": "Jaime Muguruza", "equipo": "1º GAD", "goles": 1 },
-    { "nombre": "Roman Zarovnyi", "equipo": "1º GAD", "goles": 1 },
-    { "nombre": "Álvaro Burgo", "equipo": "1º GAD", "goles": 1 },
-    { "nombre": "Javier Venfenas", "equipo": "1º GAD", "goles": null },
-    { "nombre": "Alfonso Iza", "equipo": "1º GAD", "goles": 1 },
-    { "nombre": "Gabriel Morales", "equipo": "1º GAD", "goles": null },
-    { "nombre": "Ignacio Asuan", "equipo": "1º GAD", "goles": 1 },
-
-
-
-    { "nombre": "Alejandro Cros", "equipo": "2º SMR A", "goles": 2 },
-    { "nombre": "Jaime Fernández", "equipo": "2º SMR A", "goles": null },
-    { "nombre": "Clemente González", "equipo": "2º SMR A", "goles": null },
-    { "nombre": "Alessandro Barrabes", "equipo": "2º SMR A", "goles": null },
-    { "nombre": "Álvaro González", "equipo": "2º SMR A", "goles": 2 },
-    { "nombre": "Alejandro Navarro", "equipo": "2º SMR A", "goles": null },
-    { "nombre": "Héctor Gálvez", "equipo": "2º SMR A", "goles": null },
-    { "nombre": "Mario Fernández-Braso", "equipo": "2º SMR A", "goles": null },
-    { "nombre": "Mario García Rey", "equipo": "2º SMR A", "goles": null },
 
 
 
