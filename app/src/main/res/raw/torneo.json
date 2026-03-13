@@ -7,12 +7,10 @@
   },
   "equipos": [
     { "id": 12, "nombre": "1º GAD", "ganados": 4 },
-
-    { "id": 4, "nombre": "2º COI", "ganados": 3 },
-    { "id": 16, "nombre": "2º AFI", "ganados": 3 },
+    { "id": 4, "nombre": "2º COI", "ganados": 4 },
 
     { "id": 8, "nombre": "1º COI", "ganados": 3 },
-
+    { "id": 16, "nombre": "2º AFI", "ganados": 3 },
     { "id": 7, "nombre": "2º ACO A", "ganados": 2 },
     { "id": 15, "nombre": "2º MKT", "ganados": 2 },
     { "id": 2, "nombre": "1º MKT", "ganados": 2 },
