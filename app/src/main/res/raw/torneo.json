@@ -6,13 +6,15 @@
     "fecha_fin": "13/03/2026"
   },
   "equipos": [
+    { "id": 8, "nombre": "1º COI", "ganados": 3 },
+
     { "id": 4, "nombre": "2º COI", "ganados": 2 },
     { "id": 10, "nombre": "1º ACO", "ganados": 2 },
     { "id": 16, "nombre": "2º AFI", "ganados": 2 },
     { "id": 7, "nombre": "2º ACO A", "ganados": 2 },
     { "id": 2, "nombre": "1º MKT", "ganados": 2 },
     { "id": 12, "nombre": "1º GAD", "ganados": 2 },
-    { "id": 8, "nombre": "1º COI", "ganados": 2 },
+
     { "id": 15, "nombre": "2º MKT", "ganados": 2 },
 
     { "id": 6, "nombre": "2º SMR B", "ganados": 1 },
@@ -150,7 +152,7 @@
       "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "En Juego",
+      "jugado": "Finalizado",
       "hora": "11:35",
       "campo": "Campo Único"
     },
@@ -240,6 +242,16 @@
     }
   ],
   "goleadores": [
+    { "nombre": "Alejandro Toja", "equipo": "1º COI", "goles": 2 },
+    { "nombre": "Marco Marnet", "equipo": "1º COI", "goles": null },
+    { "nombre": "Adrián Castro", "equipo": "1º COI", "goles": null },
+    { "nombre": "Adolfo Pastor", "equipo": "1º COI", "goles": null },
+    { "nombre": "Álvaro Arenas", "equipo": "1º COI", "goles": 3 },
+    { "nombre": "Victorio Gherman", "equipo": "1º COI", "goles": 2 },
+    { "nombre": "Alejandro Andrés", "equipo": "1º COI", "goles": null },
+    { "nombre": "Nikolay Biserov", "equipo": "1º COI", "goles": null },
+    { "nombre": "Jorge Sanz", "equipo": "1º COI", "goles": null },
+
     { "nombre": "Adrián Díaz", "equipo": "2º COI", "goles": null },
     { "nombre": "Samuel Gestoso", "equipo": "2º COI", "goles": null },
     { "nombre": "Beltrán García", "equipo": "2º COI", "goles": 4 },
@@ -307,16 +319,6 @@
     { "nombre": "Gabriel Morales", "equipo": "1º GAD", "goles": null },
     { "nombre": "Ignacio Asuan", "equipo": "1º GAD", "goles": 1 },
 
-    { "nombre": "Alejandro Toja", "equipo": "1º COI", "goles": 1 },
-    { "nombre": "Marco Marnet", "equipo": "1º COI", "goles": null },
-    { "nombre": "Adrián Castro", "equipo": "1º COI", "goles": null },
-    { "nombre": "Adolfo Pastor", "equipo": "1º COI", "goles": null },
-    { "nombre": "Álvaro Arenas", "equipo": "1º COI", "goles": 3 },
-    { "nombre": "Victorio Gherman", "equipo": "1º COI", "goles": 1 },
-    { "nombre": "Alejandro Andrés", "equipo": "1º COI", "goles": null },
-    { "nombre": "Nikolay Biserov", "equipo": "1º COI", "goles": null },
-    { "nombre": "Jorge Sanz", "equipo": "1º COI", "goles": null },
-
     { "nombre": "Alejandro Cros", "equipo": "2º SMR A", "goles": 2 },
     { "nombre": "Jaime Fernández", "equipo": "2º SMR A", "goles": null },
     { "nombre": "Clemente González", "equipo": "2º SMR A", "goles": null },
@@ -337,7 +339,6 @@
     { "nombre": "Bianca Ortega", "equipo": "2º MKT", "goles": null },
     { "nombre": "Inés del Olmo", "equipo": "2º MKT", "goles": null },
     { "nombre": "Enrique Muñoz", "equipo": "2º MKT", "goles": null },
-
     { "nombre": "Ethan Cheek", "equipo": "2º LAB", "goles": null },
     { "nombre": "Rodrigo Gamella", "equipo": "2º LAB", "goles": null },
     { "nombre": "Gonzalo Mulas", "equipo": "2º LAB", "goles": null },
@@ -345,7 +346,6 @@
     { "nombre": "Ainhoa Bodega", "equipo": "2º LAB", "goles": null },
     { "nombre": "David Zapatero", "equipo": "2º LAB", "goles": null },
     { "nombre": "Claudia Rodríguez", "equipo": "2º LAB", "goles": null },
-
     { "nombre": "Víctor López", "equipo": "2º SMR B", "goles": null },
     { "nombre": "Jorge Pasamontes", "equipo": "2º SMR B", "goles": null },
     { "nombre": "Cárlos López", "equipo": "2º SMR B", "goles": null },
@@ -356,7 +356,6 @@
     { "nombre": "Sara Carretero", "equipo": "2º SMR B", "goles": null },
     { "nombre": "Santiago Uyarra", "equipo": "2º SMR B", "goles": null },
     { "nombre": "Nicolás Losoviz", "equipo": "2º SMR B", "goles": null },
-
     { "nombre": "Jacobo Ruiz", "equipo": "2º ACO B", "goles": 1 },
     { "nombre": "Hugo Terraza", "equipo": "2º ACO B", "goles": null },
     { "nombre": "Hugo Pérez", "equipo": "2º ACO B", "goles": 1 },
@@ -367,7 +366,6 @@
     { "nombre": "Leo Castro", "equipo": "2º ACO B", "goles": null },
     { "nombre": "Álvaro Larramendi", "equipo": "2º ACO B", "goles": null },
     { "nombre": "Manuel Martínez", "equipo": "2º ACO B", "goles": null },
-
     { "nombre": "Nicolás Delgado", "equipo": "1º ASIR", "goles": null },
     { "nombre": "Héctor Benítez", "equipo": "1º ASIR", "goles": null },
     { "nombre": "Diego Hidalgo", "equipo": "1º ASIR", "goles": null },
@@ -379,7 +377,6 @@
     { "nombre": "Pablo Fernández", "equipo": "1º ASIR", "goles": null },
     { "nombre": "Alejandro Perona", "equipo": "1º ASIR", "goles": null },
     { "nombre": "Alex Herrero", "equipo": "1º ASIR", "goles": null },
-
     { "nombre": "Juan Villena", "equipo": "PROFES", "goles": null },
     { "nombre": "Tahiset Martín", "equipo": "PROFES", "goles": null },
     { "nombre": "Héctor Lorente", "equipo": "PROFES", "goles": null },
@@ -389,7 +386,6 @@
     { "nombre": "Juan González", "equipo": "PROFES", "goles": null },
     { "nombre": "Javi Martínez", "equipo": "PROFES", "goles": null },
     { "nombre": "Juan Pablo Montero", "equipo": "PROFES", "goles": 1 },
-
     { "nombre": "Enrique Espada", "equipo": "1º AFI", "goles": 1 },
     { "nombre": "Jacobo Graullera", "equipo": "1º AFI", "goles": 1 },
     { "nombre": "Eugenia de la Fuente", "equipo": "1º AFI", "goles": null },
@@ -400,14 +396,12 @@
     { "nombre": "Andrés Orozco", "equipo": "1º AFI", "goles": null },
     { "nombre": "Pablo Alonso", "equipo": "1º AFI", "goles": 1 },
     { "nombre": "Aitor Cerezo", "equipo": "1º AFI", "goles": null },
-
     { "nombre": "Sergio Eko", "equipo": "2º ASIR", "goles": 1 },
     { "nombre": "Adrián Munilla", "equipo": "2º ASIR", "goles": null },
     { "nombre": "Daniel Zamorano", "equipo": "2º ASIR", "goles": null },
     { "nombre": "Carlos Sibilio", "equipo": "2º ASIR", "goles": 2 },
     { "nombre": "Alfredo Caballero", "equipo": "2º ASIR", "goles": 1 },
     { "nombre": "Asier Madariaga", "equipo": "2º ASIR", "goles": null },
-
     { "nombre": "Guillermo Carmona", "equipo": "1º SMR A", "goles": null },
     { "nombre": "Mateo Corps", "equipo": "1º SMR A", "goles": null },
     { "nombre": "Adrián Maroto", "equipo": "1º SMR A", "goles": null },
@@ -419,7 +413,6 @@
     { "nombre": "Nicolás Vives", "equipo": "1º SMR A", "goles": null },
     { "nombre": "Raúl Ariza", "equipo": "1º SMR A", "goles": null },
     { "nombre": "Iván Muñoz", "equipo": "1º SMR A", "goles": null },
-
     { "nombre": "Aitor Montalvo", "equipo": "1º SMR B", "goles": null },
     { "nombre": "Miguel Suárez", "equipo": "1º SMR B", "goles": null },
     { "nombre": "Javier Vega", "equipo": "1º SMR B", "goles": null },
