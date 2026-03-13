@@ -190,12 +190,12 @@
       "orden_ronda": 2,
       "equipo_local": "2º AFI",
       "equipo_visitante": "2º ACO A",
-      "goles_local": null,
-      "goles_visitante": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Pendiente",
-      "hora": "11:30",
+      "jugado": "En Juego",
+      "hora": "13:05",
       "campo": "Campo Único"
     },
     {
