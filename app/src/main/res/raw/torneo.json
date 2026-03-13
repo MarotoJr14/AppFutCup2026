@@ -209,7 +209,7 @@
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
-      "hora": "11:55",
+      "hora": "13:35",
       "campo": "Campo Único"
     },
     {
@@ -223,7 +223,7 @@
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
-      "hora": "12:15",
+      "hora": "14:05",
       "campo": "Campo Único"
     },
     {
@@ -272,7 +272,7 @@
     { "nombre": "Rumen Nikdaev", "equipo": "2º COI", "goles": 2 },
     { "nombre": "David Pereira", "equipo": "2º COI", "goles": 3 },
 
-    
+
 
     { "nombre": "Diego Retes", "equipo": "2º AFI", "goles": null },
     { "nombre": "Fran Chávez", "equipo": "2º AFI", "goles": null },
