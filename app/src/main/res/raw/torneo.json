@@ -60,12 +60,12 @@
       "orden_ronda": 1,
       "equipo_local": "2º AFI",
       "equipo_visitante": "1º ASIR",
-      "goles_local": null,
-      "goles_visitante": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Pendiente",
-      "hora": "9:48",
+      "jugado": "En Juego",
+      "hora": "9:58",
       "campo": "Campo 1"
     },
     {
@@ -74,12 +74,12 @@
       "orden_ronda": 1,
       "equipo_local": "2º ACO A",
       "equipo_visitante": "PROFES",
-      "goles_local": null,
-      "goles_visitante": null,
+      "goles_local": 1,
+      "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Pendiente",
-      "hora": "9:48",
+      "jugado": "En Juego",
+      "hora": "9:58",
       "campo": "Campo 2"
     },
     {
