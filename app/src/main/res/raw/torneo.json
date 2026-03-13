@@ -8,14 +8,14 @@
   "equipos": [
     { "id": 8, "nombre": "1º COI", "ganados": 3 },
     { "id": 12, "nombre": "1º GAD", "ganados": 3 },
+    { "id": 4, "nombre": "2º COI", "ganados": 3 },
 
-    { "id": 4, "nombre": "2º COI", "ganados": 2 },
-    { "id": 10, "nombre": "1º ACO", "ganados": 2 },
     { "id": 16, "nombre": "2º AFI", "ganados": 2 },
     { "id": 7, "nombre": "2º ACO A", "ganados": 2 },
 
     { "id": 15, "nombre": "2º MKT", "ganados": 2 },
     { "id": 2, "nombre": "1º MKT", "ganados": 2 },
+    { "id": 10, "nombre": "1º ACO", "ganados": 2 },
 
     { "id": 6, "nombre": "2º SMR B", "ganados": 1 },
     { "id": 13, "nombre": "2º ACO B", "ganados": 1 },
@@ -176,11 +176,11 @@
       "orden_ronda": 2,
       "equipo_local": "2º COI",
       "equipo_visitante": "1º ACO",
-      "goles_local": 7,
+      "goles_local": 8,
       "goles_visitante": 1,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "En Juego",
+      "jugado": "Finalizado",
       "hora": "12:33",
       "campo": "Campo Único"
     },
@@ -263,27 +263,16 @@
     { "nombre": "Gabriel Morales", "equipo": "1º GAD", "goles": null },
     { "nombre": "Ignacio Asuan", "equipo": "1º GAD", "goles": 1 },
 
-
-
     { "nombre": "Adrián Díaz", "equipo": "2º COI", "goles": null },
     { "nombre": "Samuel Gestoso", "equipo": "2º COI", "goles": null },
-    { "nombre": "Beltrán García", "equipo": "2º COI", "goles": 4 },
+    { "nombre": "Beltrán García", "equipo": "2º COI", "goles": 7 },
     { "nombre": "Luis García", "equipo": "2º COI", "goles": null },
     { "nombre": "Kristian Flores", "equipo": "2º COI", "goles": 1 },
-    { "nombre": "Teodor Tsvetomirov", "equipo": "2º COI", "goles": 2 },
-    { "nombre": "Rumen Nikdaev", "equipo": "2º COI", "goles": 1 },
-    { "nombre": "David Pereira", "equipo": "2º COI", "goles": 1 },
+    { "nombre": "Teodor Tsvetomirov", "equipo": "2º COI", "goles": 4 },
+    { "nombre": "Rumen Nikdaev", "equipo": "2º COI", "goles": 2 },
+    { "nombre": "David Pereira", "equipo": "2º COI", "goles": 3 },
 
-    { "nombre": "Xabier Urkia", "equipo": "1º ACO", "goles": 2 },
-    { "nombre": "Jorge Holmes", "equipo": "1º ACO", "goles": null },
-    { "nombre": "Sergio Morrejón", "equipo": "1º ACO", "goles": null },
-    { "nombre": "Pablo Rebollo", "equipo": "1º ACO", "goles": 1 },
-    { "nombre": "Ignacio Tapia", "equipo": "1º ACO", "goles": null },
-    { "nombre": "Jorge Peyrona", "equipo": "1º ACO", "goles": null },
-    { "nombre": "Iván Moreno", "equipo": "1º ACO", "goles": null },
-    { "nombre": "Víctor Martínez", "equipo": "1º ACO", "goles": null },
-    { "nombre": "Nicolás Rodríguez", "equipo": "1º ACO", "goles": null },
-    { "nombre": "Bosco Sánchez", "equipo": "1º ACO", "goles": null },
+    
 
     { "nombre": "Diego Retes", "equipo": "2º AFI", "goles": null },
     { "nombre": "Fran Chávez", "equipo": "2º AFI", "goles": null },
@@ -331,6 +320,16 @@
     { "nombre": "Álvaro Conde", "equipo": "1º MKT", "goles": null },
     { "nombre": "Jorge Pintus", "equipo": "1º MKT", "goles": 1 },
     { "nombre": "Javier Paraíso", "equipo": "1º MKT", "goles": 1 },
+    { "nombre": "Xabier Urkia", "equipo": "1º ACO", "goles": 3 },
+    { "nombre": "Jorge Holmes", "equipo": "1º ACO", "goles": null },
+    { "nombre": "Sergio Morrejón", "equipo": "1º ACO", "goles": null },
+    { "nombre": "Pablo Rebollo", "equipo": "1º ACO", "goles": 1 },
+    { "nombre": "Ignacio Tapia", "equipo": "1º ACO", "goles": null },
+    { "nombre": "Jorge Peyrona", "equipo": "1º ACO", "goles": null },
+    { "nombre": "Iván Moreno", "equipo": "1º ACO", "goles": null },
+    { "nombre": "Víctor Martínez", "equipo": "1º ACO", "goles": null },
+    { "nombre": "Nicolás Rodríguez", "equipo": "1º ACO", "goles": null },
+    { "nombre": "Bosco Sánchez", "equipo": "1º ACO", "goles": null },
 
 
 
