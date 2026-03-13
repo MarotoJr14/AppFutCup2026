@@ -10,7 +10,7 @@
     { "id": 10, "nombre": "1º ACO", "ganados": 2 },
     { "id": 16, "nombre": "2º AFI", "ganados": 2 },
     { "id": 7, "nombre": "2º ACO A", "ganados": 2 },
-    
+
     { "id": 2, "nombre": "1º MKT", "ganados": 1 },
     { "id": 3, "nombre": "1º SMR B", "ganados": 1 },
     { "id": 5, "nombre": "2º LAB", "ganados": 1 },
@@ -91,12 +91,12 @@
       "orden_ronda": 1,
       "equipo_local": "1º AFI",
       "equipo_visitante": "1º MKT",
-      "goles_local": null,
-      "goles_visitante": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Pendiente",
-      "hora": "10:03",
+      "jugado": "En Juego",
+      "hora": "10:38",
       "campo": "Campo 1"
     },
     {
@@ -105,12 +105,12 @@
       "orden_ronda": 1,
       "equipo_local": "1º GAD",
       "equipo_visitante": "2º ASIR",
-      "goles_local": null,
-      "goles_visitante": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Pendiente",
-      "hora": "10:03",
+      "jugado": "En Juego",
+      "hora": "10:38",
       "campo": "Campo 2"
     },
     {
