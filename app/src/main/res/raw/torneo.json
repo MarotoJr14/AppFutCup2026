@@ -271,7 +271,7 @@
 
     { "nombre": "Diego Retes", "equipo": "2º AFI", "goles": 1 },
     { "nombre": "Fran Chávez", "equipo": "2º AFI", "goles": null },
-    { "nombre": "Leo Dubois", "equipo": "2º AFI", "goles": null },
+    { "nombre": "Leo Dubois", "equipo": "2º AFI", "goles": 1 },
     { "nombre": "Manu Bonifacio", "equipo": "2º AFI", "goles": 1 },
     { "nombre": "Víctor Criado", "equipo": "2º AFI", "goles": null },
     { "nombre": "Enra Alonso", "equipo": "2º AFI", "goles": null },
