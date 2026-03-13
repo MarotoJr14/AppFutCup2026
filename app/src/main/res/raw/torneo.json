@@ -160,22 +160,22 @@
       "id": 10,
       "ronda": "1/4 de Final",
       "orden_ronda": 2,
-      "equipo_local": "2º AFI",
-      "equipo_visitante": "2º ACO A",
-      "goles_local": null,
-      "goles_visitante": null,
+      "equipo_local": "1º MKT",
+      "equipo_visitante": "1º GAD",
+      "goles_local": 0,
+      "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Pendiente",
-      "hora": "10:50",
+      "jugado": "En Juego",
+      "hora": "12:03",
       "campo": "Campo Único"
     },
     {
       "id": 11,
       "ronda": "1/4 de Final",
       "orden_ronda": 2,
-      "equipo_local": "Por deterrminar",
-      "equipo_visitante": "Por deterrminar",
+      "equipo_local": "2º COI",
+      "equipo_visitante": "1º ACO",
       "goles_local": null,
       "goles_visitante": null,
       "penaltis_local": null,
@@ -188,8 +188,8 @@
       "id": 12,
       "ronda": "1/4 de Final",
       "orden_ronda": 2,
-      "equipo_local": "Por deterrminar",
-      "equipo_visitante": "Por deterrminar",
+      "equipo_local": "2º AFI",
+      "equipo_visitante": "2º ACO A",
       "goles_local": null,
       "goles_visitante": null,
       "penaltis_local": null,
@@ -251,6 +251,8 @@
     { "nombre": "Alejandro Andrés", "equipo": "1º COI", "goles": null },
     { "nombre": "Nikolay Biserov", "equipo": "1º COI", "goles": null },
     { "nombre": "Jorge Sanz", "equipo": "1º COI", "goles": null },
+
+
 
     { "nombre": "Adrián Díaz", "equipo": "2º COI", "goles": null },
     { "nombre": "Samuel Gestoso", "equipo": "2º COI", "goles": null },
@@ -319,6 +321,8 @@
     { "nombre": "Gabriel Morales", "equipo": "1º GAD", "goles": null },
     { "nombre": "Ignacio Asuan", "equipo": "1º GAD", "goles": 1 },
 
+
+
     { "nombre": "Alejandro Cros", "equipo": "2º SMR A", "goles": 2 },
     { "nombre": "Jaime Fernández", "equipo": "2º SMR A", "goles": null },
     { "nombre": "Clemente González", "equipo": "2º SMR A", "goles": null },
@@ -328,6 +332,8 @@
     { "nombre": "Héctor Gálvez", "equipo": "2º SMR A", "goles": null },
     { "nombre": "Mario Fernández-Braso", "equipo": "2º SMR A", "goles": null },
     { "nombre": "Mario García Rey", "equipo": "2º SMR A", "goles": null },
+
+
 
     { "nombre": "Joël Gálvez", "equipo": "2º MKT", "goles": 1 },
     { "nombre": "Pablo Casado", "equipo": "2º MKT", "goles": null },
