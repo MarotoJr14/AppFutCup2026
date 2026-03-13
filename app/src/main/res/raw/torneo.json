@@ -201,12 +201,12 @@
       "orden_ronda": 3,
       "equipo_local": "1º COI",
       "equipo_visitante": "1º GAD",
-      "goles_local": null,
-      "goles_visitante": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Pendiente",
-      "hora": "13:35",
+      "jugado": "En Juego",
+      "hora": "13:52",
       "campo": "Campo Único"
     },
     {
@@ -220,7 +220,7 @@
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
-      "hora": "14:05",
+      "hora": "14:22",
       "campo": "Campo Único"
     },
     {
@@ -234,7 +234,7 @@
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
-      "hora": "13:10",
+      "hora": "14:52",
       "campo": "Campo Único"
     }
   ],
@@ -271,7 +271,7 @@
 
     { "nombre": "Diego Retes", "equipo": "2º AFI", "goles": 1 },
     { "nombre": "Fran Chávez", "equipo": "2º AFI", "goles": null },
-    { "nombre": "Leo Dubois", "equipo": "2º AFI", "goles": 1 },
+    { "nombre": "Leo Dubois", "equipo": "2º AFI", "goles": null },
     { "nombre": "Manu Bonifacio", "equipo": "2º AFI", "goles": 1 },
     { "nombre": "Víctor Criado", "equipo": "2º AFI", "goles": null },
     { "nombre": "Enra Alonso", "equipo": "2º AFI", "goles": null },
@@ -313,9 +313,8 @@
     { "nombre": "Víctor Martínez", "equipo": "1º ACO", "goles": null },
     { "nombre": "Nicolás Rodríguez", "equipo": "1º ACO", "goles": null },
     { "nombre": "Bosco Sánchez", "equipo": "1º ACO", "goles": null },
-
     { "nombre": "Fernando Calatrava", "equipo": "2º ACO A", "goles": null },
-    { "nombre": "Leo Castro", "equipo": "2º ACO A", "goles": null },
+    { "nombre": "Leo Castro", "equipo": "2º ACO A", "goles": 1 },
     { "nombre": "Marcos Carvajal", "equipo": "2º ACO A", "goles": 1 },
     { "nombre": "Iván Blanco", "equipo": "2º ACO A", "goles": 1 },
     { "nombre": "Javier Cruzado", "equipo": "2º ACO A", "goles": null },
@@ -325,7 +324,6 @@
     { "nombre": "Yago Bolonio", "equipo": "2º ACO A", "goles": null },
     { "nombre": "Sergio Badorrey", "equipo": "2º ACO A", "goles": null },
     { "nombre": "Hugo Yáñez", "equipo": "2º ACO A", "goles": null },
-
     { "nombre": "Joël Gálvez", "equipo": "2º MKT", "goles": 1 },
     { "nombre": "Pablo Casado", "equipo": "2º MKT", "goles": null },
     { "nombre": "Adrián Gálvez", "equipo": "2º MKT", "goles": null },
