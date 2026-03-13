@@ -6,9 +6,8 @@
     "fecha_fin": "13/03/2026"
   },
   "equipos": [
-    { "id": 12, "nombre": "1º GAD", "ganados": 4 },
+    { "id": 12, "nombre": "1º GAD", "ganados": 5 },
     { "id": 4, "nombre": "2º COI", "ganados": 4 },
-
     { "id": 8, "nombre": "1º COI", "ganados": 3 },
     { "id": 16, "nombre": "2º AFI", "ganados": 3 },
     { "id": 7, "nombre": "2º ACO A", "ganados": 2 },
@@ -228,12 +227,12 @@
       "ronda": "Final",
       "orden_ronda": 4,
       "equipo_local": "1º GAD",
-      "equipo_visitante": "Por deterrminar",
-      "goles_local": 0,
-      "goles_visitante": 0,
+      "equipo_visitante": "2º COI",
+      "goles_local": 3,
+      "goles_visitante": 2,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "En Juego",
+      "jugado": "Finalizado",
       "hora": "14:48",
       "campo": "Campo Único"
     }
