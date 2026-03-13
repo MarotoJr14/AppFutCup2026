@@ -9,14 +9,12 @@
     { "id": 8, "nombre": "1º COI", "ganados": 3 },
     { "id": 12, "nombre": "1º GAD", "ganados": 3 },
     { "id": 4, "nombre": "2º COI", "ganados": 3 },
+    { "id": 16, "nombre": "2º AFI", "ganados": 3 },
 
-    { "id": 16, "nombre": "2º AFI", "ganados": 2 },
     { "id": 7, "nombre": "2º ACO A", "ganados": 2 },
-
     { "id": 15, "nombre": "2º MKT", "ganados": 2 },
     { "id": 2, "nombre": "1º MKT", "ganados": 2 },
     { "id": 10, "nombre": "1º ACO", "ganados": 2 },
-
     { "id": 6, "nombre": "2º SMR B", "ganados": 1 },
     { "id": 13, "nombre": "2º ACO B", "ganados": 1 },
     { "id": 1, "nombre": "1º ASIR", "ganados": 1 },
@@ -25,7 +23,6 @@
     { "id": 17, "nombre": "2º ASIR", "ganados": 1 },
     { "id": 3, "nombre": "2º SMR A", "ganados": 1 },
     { "id": 5, "nombre": "2º LAB", "ganados": 1 },
-
     { "id": 18, "nombre": "1º SMR A", "ganados": 0 },
     { "id": 9, "nombre": "1º SMR B", "ganados": 0 }
   ],
@@ -194,7 +191,7 @@
       "goles_visitante": 1,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "En Juego",
+      "jugado": "Finalizado",
       "hora": "13:05",
       "campo": "Campo Único"
     },
@@ -272,30 +269,16 @@
     { "nombre": "Rumen Nikdaev", "equipo": "2º COI", "goles": 2 },
     { "nombre": "David Pereira", "equipo": "2º COI", "goles": 3 },
 
-
-
-    { "nombre": "Diego Retes", "equipo": "2º AFI", "goles": null },
+    { "nombre": "Diego Retes", "equipo": "2º AFI", "goles": 1 },
     { "nombre": "Fran Chávez", "equipo": "2º AFI", "goles": null },
     { "nombre": "Leo Dubois", "equipo": "2º AFI", "goles": null },
     { "nombre": "Manu Bonifacio", "equipo": "2º AFI", "goles": 1 },
     { "nombre": "Víctor Criado", "equipo": "2º AFI", "goles": null },
     { "nombre": "Enra Alonso", "equipo": "2º AFI", "goles": null },
-    { "nombre": "Cosmín Agapie", "equipo": "2º AFI", "goles": 2 },
+    { "nombre": "Cosmín Agapie", "equipo": "2º AFI", "goles": 3 },
     { "nombre": "Sergio Francés", "equipo": "2º AFI", "goles": null },
     { "nombre": "Alejandro Martín", "equipo": "2º AFI", "goles": null },
     { "nombre": "Nicolás Riesgo", "equipo": "2º AFI", "goles": null },
-
-    { "nombre": "Fernando Calatrava", "equipo": "2º ACO A", "goles": null },
-    { "nombre": "Leo Castro", "equipo": "2º ACO A", "goles": null },
-    { "nombre": "Marcos Carvajal", "equipo": "2º ACO A", "goles": 1 },
-    { "nombre": "Iván Blanco", "equipo": "2º ACO A", "goles": 1 },
-    { "nombre": "Javier Cruzado", "equipo": "2º ACO A", "goles": null },
-    { "nombre": "Nicolás Caunedo", "equipo": "2º ACO A", "goles": null },
-    { "nombre": "Samuel Díaz", "equipo": "2º ACO A", "goles": null },
-    { "nombre": "Sergio Montero", "equipo": "2º ACO A", "goles": null },
-    { "nombre": "Yago Bolonio", "equipo": "2º ACO A", "goles": null },
-    { "nombre": "Sergio Badorrey", "equipo": "2º ACO A", "goles": null },
-    { "nombre": "Hugo Yáñez", "equipo": "2º ACO A", "goles": null },
 
 
 
@@ -330,6 +313,18 @@
     { "nombre": "Víctor Martínez", "equipo": "1º ACO", "goles": null },
     { "nombre": "Nicolás Rodríguez", "equipo": "1º ACO", "goles": null },
     { "nombre": "Bosco Sánchez", "equipo": "1º ACO", "goles": null },
+
+    { "nombre": "Fernando Calatrava", "equipo": "2º ACO A", "goles": null },
+    { "nombre": "Leo Castro", "equipo": "2º ACO A", "goles": null },
+    { "nombre": "Marcos Carvajal", "equipo": "2º ACO A", "goles": 1 },
+    { "nombre": "Iván Blanco", "equipo": "2º ACO A", "goles": 1 },
+    { "nombre": "Javier Cruzado", "equipo": "2º ACO A", "goles": null },
+    { "nombre": "Nicolás Caunedo", "equipo": "2º ACO A", "goles": null },
+    { "nombre": "Samuel Díaz", "equipo": "2º ACO A", "goles": null },
+    { "nombre": "Sergio Montero", "equipo": "2º ACO A", "goles": null },
+    { "nombre": "Yago Bolonio", "equipo": "2º ACO A", "goles": null },
+    { "nombre": "Sergio Badorrey", "equipo": "2º ACO A", "goles": null },
+    { "nombre": "Hugo Yáñez", "equipo": "2º ACO A", "goles": null },
 
 
 
