@@ -6,10 +6,12 @@
     "fecha_fin": "13/03/2026"
   },
   "equipos": [
-    { "id": 8, "nombre": "1º COI", "ganados": 3 },
-    { "id": 12, "nombre": "1º GAD", "ganados": 3 },
+    { "id": 12, "nombre": "1º GAD", "ganados": 4 },
+
     { "id": 4, "nombre": "2º COI", "ganados": 3 },
     { "id": 16, "nombre": "2º AFI", "ganados": 3 },
+
+    { "id": 8, "nombre": "1º COI", "ganados": 3 },
 
     { "id": 7, "nombre": "2º ACO A", "ganados": 2 },
     { "id": 15, "nombre": "2º MKT", "ganados": 2 },
@@ -201,11 +203,11 @@
       "orden_ronda": 3,
       "equipo_local": "1º COI",
       "equipo_visitante": "1º GAD",
-      "goles_local": 0,
-      "goles_visitante": 3,
+      "goles_local": 2,
+      "goles_visitante": 4,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "En Juego",
+      "jugado": "Finalizado",
       "hora": "13:52",
       "campo": "Campo Único"
     },
@@ -215,19 +217,19 @@
       "orden_ronda": 3,
       "equipo_local": "2º COI",
       "equipo_visitante": "2º AFI",
-      "goles_local": null,
-      "goles_visitante": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
-      "jugado": "Pendiente",
-      "hora": "14:22",
+      "jugado": "En Juego",
+      "hora": "14:17",
       "campo": "Campo Único"
     },
     {
       "id": 15,
       "ronda": "Final",
       "orden_ronda": 4,
-      "equipo_local": "Por deterrminar",
+      "equipo_local": "1º GAD",
       "equipo_visitante": "Por deterrminar",
       "goles_local": null,
       "goles_visitante": null,
@@ -239,24 +241,14 @@
     }
   ],
   "goleadores": [
-    { "nombre": "Alejandro Toja", "equipo": "1º COI", "goles": 2 },
-    { "nombre": "Marco Marnet", "equipo": "1º COI", "goles": null },
-    { "nombre": "Adrián Castro", "equipo": "1º COI", "goles": null },
-    { "nombre": "Adolfo Pastor", "equipo": "1º COI", "goles": null },
-    { "nombre": "Álvaro Arenas", "equipo": "1º COI", "goles": 3 },
-    { "nombre": "Victorio Gherman", "equipo": "1º COI", "goles": 2 },
-    { "nombre": "Alejandro Andrés", "equipo": "1º COI", "goles": null },
-    { "nombre": "Nikolay Biserov", "equipo": "1º COI", "goles": null },
-    { "nombre": "Jorge Sanz", "equipo": "1º COI", "goles": null },
-
     { "nombre": "Sergio Fernández", "equipo": "1º GAD", "goles": null },
     { "nombre": "Alonso González", "equipo": "1º GAD", "goles": null },
     { "nombre": "Jaime Trenado", "equipo": "1º GAD", "goles": null },
-    { "nombre": "Jaime Muguruza", "equipo": "1º GAD", "goles": 1 },
-    { "nombre": "Roman Zarovnyi", "equipo": "1º GAD", "goles": 1 },
-    { "nombre": "Álvaro Burgo", "equipo": "1º GAD", "goles": 1 },
+    { "nombre": "Jaime Muguruza", "equipo": "1º GAD", "goles": 2 },
+    { "nombre": "Roman Zarovnyi", "equipo": "1º GAD", "goles": 2 },
+    { "nombre": "Álvaro Burgo", "equipo": "1º GAD", "goles": 2 },
     { "nombre": "Javier Verderas", "equipo": "1º GAD", "goles": null },
-    { "nombre": "Alfonso Iza", "equipo": "1º GAD", "goles": 2 },
+    { "nombre": "Alfonso Iza", "equipo": "1º GAD", "goles": 3 },
     { "nombre": "Gabriel Morales", "equipo": "1º GAD", "goles": null },
     { "nombre": "Ignacio Asuan", "equipo": "1º GAD", "goles": 1 },
 
@@ -279,6 +271,17 @@
     { "nombre": "Sergio Francés", "equipo": "2º AFI", "goles": null },
     { "nombre": "Alejandro Martín", "equipo": "2º AFI", "goles": null },
     { "nombre": "Nicolás Riesgo", "equipo": "2º AFI", "goles": null },
+
+
+    { "nombre": "Alejandro Toja", "equipo": "1º COI", "goles": 2 },
+    { "nombre": "Marco Marnet", "equipo": "1º COI", "goles": null },
+    { "nombre": "Adrián Castro", "equipo": "1º COI", "goles": null },
+    { "nombre": "Adolfo Pastor", "equipo": "1º COI", "goles": null },
+    { "nombre": "Álvaro Arenas", "equipo": "1º COI", "goles": 3 },
+    { "nombre": "Victorio Gherman", "equipo": "1º COI", "goles": 2 },
+    { "nombre": "Alejandro Andrés", "equipo": "1º COI", "goles": null },
+    { "nombre": "Nikolay Biserov", "equipo": "1º COI", "goles": 2 },
+    { "nombre": "Jorge Sanz", "equipo": "1º COI", "goles": null },
 
 
 
