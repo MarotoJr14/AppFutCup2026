@@ -32,8 +32,8 @@
       "orden_ronda": 1,
       "equipo_local": "2º COI",
       "equipo_visitante": "2º SMR B",
-      "goles_local": null,
-      "goles_visitante": null,
+      "goles_local": 0,
+      "goles_visitante": 1,
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
@@ -46,8 +46,8 @@
       "orden_ronda": 1,
       "equipo_local": "2º ACO B",
       "equipo_visitante": "1º ACO",
-      "goles_local": null,
-      "goles_visitante": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
@@ -65,7 +65,7 @@
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
-      "hora": "9:25",
+      "hora": "9:48",
       "campo": "Campo 1"
     },
     {
@@ -79,7 +79,7 @@
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
-      "hora": "9:25",
+      "hora": "9:48",
       "campo": "Campo 2"
     },
     {
@@ -93,7 +93,7 @@
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
-      "hora": "9:40",
+      "hora": "10:03",
       "campo": "Campo 1"
     },
     {
@@ -107,7 +107,7 @@
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
-      "hora": "9:40",
+      "hora": "10:03",
       "campo": "Campo 2"
     },
     {
@@ -121,7 +121,7 @@
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
-      "hora": "9:55",
+      "hora": "10:18",
       "campo": "Campo 1"
     },
     {
@@ -135,7 +135,7 @@
       "penaltis_local": null,
       "penaltis_visitante": null,
       "jugado": "Pendiente",
-      "hora": "9:55",
+      "hora": "10:18",
       "campo": "Campo 2"
     },
     {
